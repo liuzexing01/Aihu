@@ -3,7 +3,8 @@
  */
 const express=require('express');
 const bodyParser=require('body-parser');
-const user=require('./routes/pic.js');
+const pic=require('./routes/pic.js');
+const cases=require('./routes/cases.js');
 
 var app=express();
 app.listen(3000);
@@ -15,3 +16,4 @@ app.use(bodyParser.urlencoded({
 }))
 
 app.use('/pic',pic);
+app.use('/cases',cases);

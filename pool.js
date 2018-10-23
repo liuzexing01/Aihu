@@ -4,10 +4,10 @@
 
 const mysql=require('mysql');
 var pool=mysql.createPool({
-    host:'localhost',
+    host:'127.0.0.1',
     user:'root',
     password:'',
-    database:'gudong',
+    database:'teamone',
     connectionLimit:10
 })
 module.exports=pool;
