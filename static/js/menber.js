@@ -48,7 +48,7 @@ $.ajax({
                 $name.html(`<p>${res[i].uname}</p>`)
                 $desc.html(`<p>${res[i].des}</p>`)
                 $name.css("width","300px")
-                $desc.css("width","300px")
+                $desc.css("width","400px")
                 for(var j=0;j<6;j++){
                     $menber.eq(j).css("opacity","0")
                 }

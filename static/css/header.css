@@ -45,6 +45,6 @@
     width:100%;
     left:0;
 }
-#header ul li a:hover~li a:after{
+#header ul li:hover~li a:after{
     left:0;
 }
