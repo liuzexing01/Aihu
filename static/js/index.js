@@ -177,7 +177,6 @@ for(var i=0,j=$d6Text.length;i<j;i++){
 }
 })
 
-/*d4部分特效*/
 
 
 
